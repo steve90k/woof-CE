@@ -1,0 +1,11 @@
+name: BUILD 001 Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hi
+        run: echo "BUILD 001 workflow is working!"
